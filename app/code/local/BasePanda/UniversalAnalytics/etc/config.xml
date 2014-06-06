@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+<modules>
+    <BasePanda_UniversalAnalytics>
+        <version>0.1.0</version>
+    </BasePanda_UniversalAnalytics>
+</modules>
+<global>
+    <models>
+        <basepanda_universalanalytics>
+            <class>BasePanda_UniversalAnalytics_Model</class>
+            <resourceModel>basepanda_universalanalytics_resource</resourceModel>
+        </basepanda_universalanalytics>
+        <basepanda_universalanalytics_resource>
+            <class>BasePanda_UniversalAnalytics_Model_Resource</class>
+        </basepanda_universalanalytics_resource>
+    </models>
+    <blocks>
+        <basepanda_universalanalytics>
+            <class>BasePanda_UniversalAnalytics_Block</class>
+        </basepanda_universalanalytics>
+    </blocks>
+    <helpers>
+        <basepanda_universalanalytics>
+            <class>BasePanda_UniversalAnalytics_Helper</class>
+        </basepanda_universalanalytics>
+    </helpers>
+</global>
+<frontend>
+    <layout>
+        <updates>
+            <basepanda_universalanalytics>
+                <file>basepanda/universalanalytics.xml</file>
+            </basepanda_universalanalytics>
+        </updates>
+    </layout>
+</frontend>
+</config>

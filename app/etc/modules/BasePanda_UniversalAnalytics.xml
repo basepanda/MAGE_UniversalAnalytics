@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <BasePanda_UniversalAnalytics>
+            <active>true</active>
+            <codePool>local</codePool>
+        </BasePanda_UniversalAnalytics>
+    </modules>
+</config>

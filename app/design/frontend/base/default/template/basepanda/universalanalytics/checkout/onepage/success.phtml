@@ -1,0 +1,10 @@
+<!-- Google Analytics Ecommerce -->
+<script type="text/javascript">
+	ga('require', 'ecommerce', 'ecommerce.js');
+	ga('ecommerce:addTransaction', <?php echo $this->getTransactionDetails() ?>);
+	<?php foreach ($this->getTransactionItems() as $c): ?>
+	ga('ecommerce:addItem', <?php echo $c ?>);
+	<?php endforeach; ?>
+	ga('ecommerce:send');
+</script>
+<!-- end Google Analytics Eccommerce -->

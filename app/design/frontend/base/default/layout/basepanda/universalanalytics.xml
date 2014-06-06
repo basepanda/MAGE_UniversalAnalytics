@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <block type="basepanda_universalanalytics/head" name="basepanda_universalanalytics_head"/>
+        </reference>
+    </default>
+    <checkout_onepage_success>
+        <reference name="head">
+            <block type="basepanda_universalanalytics/checkout_onepage_success" name="basepanda_universalanalytics_checkout_onepage_success" />
+        </reference>
+    </checkout_onepage_success>
+</layout>

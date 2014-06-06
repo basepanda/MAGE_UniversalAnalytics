@@ -1,0 +1,42 @@
+<config>
+    <tabs>
+        <basepanda translate="label">
+            <label>Base Panda</label>
+            <sort_order>100</sort_order>
+        </basepanda>
+    </tabs>
+    <sections>
+        <basepanda_universalanalytics translate="label">
+            <label>Universal Analytics</label>
+            <tab>basepanda</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <default>
+                    <label>Universal Analytics</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <gaid>
+                            <label>Google Analytics ID</label>
+                            <comment>
+                                <![CDATA[eg. UA-XXXXX-Y]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </gaid>
+                    </fields>
+                </default>
+            </groups>
+        </basepanda_universalanalytics>
+    </sections>
+</config>
